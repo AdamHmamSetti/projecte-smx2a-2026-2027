@@ -14,7 +14,14 @@ Una polsera per a cada persona amb un identificador únic que serveix per entrar
 Els productes que podràs aconseguir amb les monedes seran, begudes a la màquina expenedora, merchandising, proteïna, creatina, productes de gimnàs…
 
 ### IhateSpam
+IHateSpam és un projecte d'una IA que s'encarrega de l'spam que us arriba, tant trucades i SMS com correus. Quan entra alguna cosa, la IA mira el número o el correu i decideix si és spam. Si no ho és, t'hi arriba com sempre. Si ho és, en comptes de bloquejar-lo li contesta ella sola.
 
+Tu tries com contesta amb un nivell de l'1 al 10. Als nivells baixos és educada però els fa perdre el temps, als mitjans els vacil·la i els segueix el rotllo, i als alts es posa vora i els insulta.
+
+Cada número o correu de correu brossa que detecta es guarda en una base de dades, així la propera vegada que tornin les reconeix al moment. A més, l'usuari pot crear una llista de contactes segurs, que són números i correus als quals la IA mai no respon, perquè no conteste per error la teva família, el teu banc o la teva feina. També porta un filtre de seguretat: si alguna cosa sembla una estafa perillosa, com un phishing, la IA no contesta per no donar dades ni confirmar que el teu número funciona.
+
+Tot això va a una web i una aplicació. Des d'aquí es veu un historial de quin correu brossa ha arribat, què ha respost la IA i quant de temps els ha fet perdre.
+![Esquema](esquema_pro.png)
 
 ### La-Fusta-Lactea
 
