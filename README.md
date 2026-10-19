@@ -6,15 +6,16 @@ Llista de projectes d'SMX2A del curs 2026-2027.
 
 
 ### GameTruk
-Aquest projecte consisteix en el disseny i la implementació d’un GAME TRUCK, un camió adaptat com un espai d’entreteniment i videojocs . L’objectiu principal és crear un entorn on els usuaris puguin gaudir de diferents videojocs amb amics, utilitzant consoles com PlayStation 4 i PlayStation 5, ordinadors gaming i altres dispositius.
 
-El GAME TRUCK disposarà d’una infraestructura informàtica completa, formada per una xarxa local d’alta velocitat, servidors, equips informàtics, consoles, sistemes de comunicació i diferents serveis de xarxa.
+Aquest projecte consisteix un camió adaptat a videojocs i entrenament de torneijos. L’objectiu principal es crear un entorn on les persones puguin gaudir de diferents videojocs amb amics, utilizant consoles i ordinadors gaming.
 
-Per proporcionar una connexió a Internet estable i amb una capacitat elevada, ens plantegem la utilització de sis connexions Starlink de fins a 300 Mbps cadascuna. Aquestes connexions es gestionaran mitjançant un servidor basat en Ubuntu Server, utilitzant la tècnica de Channel Bonding per combinar diverses interfícies de xarxa i distribuir el trànsit entre les diferents connexions disponibles.
+El Game Truk disposara d’una infraestructura informàtica, formada per una xarxa locals, servidors, equips, consoles i sistemes de comunicació.
 
-La infraestructura de xarxa estarà formada principalment per un servidor central, switches, punts d’accés Wi-Fi i connexions Ethernet. Els ordinadors gaming i altres dispositius que necessitin una connexió estable es connectaran preferentment mitjançant cable Ethernet, mentre altres equips podran utilitzar la xarxa Wi-Fi.
+Ens plantegem la utilizació de sis connexions Starlink de 300 Mbps. Aquestes connexions es gestionaran en un servidor (Ubuntu server) , utilizant la tecinca del Channel Bonding.
 
-Com a sistema operatiu principal dels servidors utilitzarem Ubuntu Server, basat en el kernel Linux. Aquest sistema permetrà gestionar diferents serveis de xarxa, usuaris, permisos, seguretat, monitorització i administració de la infraestructura.
+L’infrastuctura de xarxa estara formada switshes, WI-FI i connexions Ethernet. Els ordinador gaming es conectaran a conexió ethernet.
+
+Com a sistema operatiu dels servidors utilizarem ubuntu server, basat en el kernel de linux. Aquest sistema ens deixara gestionar serveis en xarxa , usuaris, permisos i seguretat.
 ![Game Truck](camiongaming.png)
 
 (Electricitat i Infraestructura)
