@@ -2,13 +2,13 @@
 
 Llista de projectes d'SMX2A del curs 2026-2027.
 
-### AlmostReal
+### [AlmostReal](https://github.com/samjorge28/AlmostReal)
 
 Esborrany Projecte AlmostReal
 
 AlmostReal – La botiga del futur En què consisteix el projecte? AlmostReal és un projecte que busca modernitzar les botigues de roba mitjançant la tecnologia, la intel·ligència artificial i la realitat virtual. La idea principal és crear una rèplica digital en 3D d'una botiga física, que els clients puguin visitar des d'un ordinador o amb unes ulleres de realitat virtual, com si estiguessin dins de la botiga real. Per crear aquest espai virtual, es podria gravar la botiga amb un mòbil o un dron i utilitzar eines de reconstrucció 3D per generar un model inicial. Després, es podria editar amb Blender i incorporar-lo a Unreal Engine, on es crearia l'entorn interactiu. Idees i funcions principals Botiga virtual en 3D: els clients podrien caminar per la botiga virtual i veure on es troba cada peça de roba. Mode PC i realitat virtual: es podria explorar la botiga amb el teclat i el ratolí o amb ulleres de realitat virtual, per tenir una experiència més immersiva. Assistent virtual amb IA: un assistent podria respondre preguntes com ara «On són les dessuadores negres?» o «Quin conjunt em recomanes per sortir?». Recomanacions de roba: el sistema podria recomanar conjunts segons els colors, l'estil, la talla i el pressupost del client. Mapa i rutes: quan el client triés una peça, el sistema la destacaria dins de la botiga virtual i li mostraria el camí per arribar-hi. Control d'estoc: una base de dades permetria consultar els productes disponibles, les talles, els colors i la seva ubicació. Panell d'administració: els treballadors podrien gestionar els productes, actualitzar l'estoc i consultar informació de la botiga. Com es podria desenvolupar? Per fer el projecte, es podrien utilitzar diferents eines: Blender: per crear i modificar els models 3D. Unreal Engine: per construir la botiga virtual interactiva i el mode de realitat virtual. Python: per programar algunes funcions de la IA i la comunicació entre sistemes. MySQL o PostgreSQL: per guardar els productes, les talles i l'estoc. Linux Server: per allotjar els serveis i la base de dades. HTML, CSS i JavaScript: per crear el panell web d'administració. Part d'informàtica i xarxes Com que és un projecte del cicle de SMX, també es treballaria la part d'infraestructura informàtica. Es podria configurar un servidor Linux, una base de dades, una xarxa local, adreces IP, usuaris i permisos, mesures de seguretat i sistemes de monitoratge per comprovar que els serveis funcionen correctament. Objectiu final L'objectiu és crear una demostració funcional d'una botiga de roba intel·ligent on un client pugui entrar en un entorn 3D, parlar amb un assistent d'IA, rebre recomanacions i trobar els productes fàcilment. No caldria construir una botiga completa des del principi: es podria començar amb una versió petita i anar afegint funcions a mesura que avanci el projecte. AlmostReal vol demostrar com es poden combinar la realitat virtual, la intel·ligència artificial, les bases de dades, els servidors i les xarxes per crear una nova manera de comprar roba.
 
-### GameTruk
+### [Game Truk](https://github.com/AdamHmamSetti/GameTruk)
 
 Aquest projecte consisteix un camió adaptat a videojocs i entrenament de torneijos. L’objectiu principal es crear un entorn on les persones puguin gaudir de diferents videojocs amb amics, utilizant consoles i ordinadors gaming.
 
@@ -64,7 +64,7 @@ Reserves directament per la pàgina web.
 
 
 
-### GymLeveling
+### [GymLeveling](https://github.com/saericdo/GymLeveling)
 Una polsera per a cada persona amb un identificador únic que serveix per entrar sortir i registrar-se en una màquina, després una lliga, amb rangs, la lliga és mensual i vas pujant llocs a mesura que guanyes punts els quals es guanyen fent la teva rutina, exercicis, reptes, Existeixen també reptes diaris i reptes setmanals, els reptes diaris et donarien el doble de punts i el setmanal el doble que el diari, El repte diari consistiria en una màquina segons la teva rutina, i el repte setmanal consistiria en una rutina d'un dia que pots fer cada setmana com per exemple un full body o fer cama full amb màquines que no s'usen, aquests reptes et donarien punts de lliga (els punts de lliga serveixen per pujar rànquing en lliga) i el setmanal et donaria punts de lliga i monedes( les monedes serveixen per quan en acumulis les suficients gastar-les en descomptes, productes, merchandising, etc.) cada dia si completes la teva rutina et donarien punts de lliga i monedes. Per a què serveix la lliga? Per incentivar la gent a anar al gym, en la qual si quedes en determinats llocs rebis diferents recompenses ex: top 1 títol exclusiu, -75% de descompte aquest mes, lot de proteïna i creatina i per exemple unes 50 monedes (les quantitats encara són indefinides), top 2 títol exclusiu, 25 monedes (les quantitats encara són indefinides), -50% de descompte aquest mes, lot de proteïna i creatina, top 3 títol exclusiu,15 monedes (les quantitats encara són indefinides), -25% de descompte aquest mes, lot de proteïna i creatina, top 4-10,10 monedes (les quantitats encara són indefinides). Important: els punts de lliga i les monedes de lliga són diferents (els punts de lliga es resetegen quan es reseteja la lliga i només serveixen per pujar llocs i guanyar les recompenses de lliga, després hi haurà experiència que et pugi de rang per fer exercicis i això un sistema normal d'experiència vaja). Finalment tenim una idea d'un sistema de ràtxa, en aquest hi ha dues diferents ràtxes, la primera ràtxa és de lliga, la qual es reseteja quan la lliga (aquesta no es reinicia quan falles un dia de rutina simplement aquest dia no compta i es queda en la mateixa ràtxa), (més ràtxa = més punts de lliga) l'altra ràtxa és una ràtxa general i aquesta es reseteja quan fallis un dia de la teva rutina (més ràtxa general = més monedes). Misions anuals i addicionals que apareixeran cada cert temps(les addicionals), les anuals consistiran en barbaritats (assisteix 100 dies al gimnàs o fes no sé quants km, etc.). Les addicionals en coses casuals (convida un amic amb aquest codi). Conseqüències: no portes polsera = no punts Cada màquina tindrà un sensor per tal que juntament amb la polsera detecti repeticions i pes, quantes voltes has fet a la bici, quants km i en quin temps has corregut a la cinta (tot això, evidentment, amb bona tècnica que serà detectada amb les càmeres… que aniran cap a una base de dades i un servidor que les recolliran i les posaran al rànquing, la lliga, etc. podràs tenir llista d'amics, lliga entre amics, lliga d'equips i la lliga global. Cada màquina tindrà el seu propi rànquing on sortiran els que més pes aixequin i més repeticions facin. La polsera també serà el mètode amb el qual pagaràs amb les monedes de l'aplicació, o sigui, tu t'apropes a la màquina expenedora i agafes un aquarius que val 50 monedes, doncs apropes la polsera, i pagues les 50 monedes.
 
 Els productes que podràs aconseguir amb les monedes seran, begudes a la màquina expenedora, merchandising, proteïna, creatina, productes de gimnàs…
@@ -127,6 +127,96 @@ El nostre objectiu és aconseguir un sistema segur, fàcil d'utilitzar, fiable i
 
 ### MyBread
 
+#### Context
+
+L’idea d’aquest projecte es poder digitalitzar un Fleca. Volem crear una tecnología que faciliti la feina dels treballadors, millori l'experiència dels clients i ajudi a vendre més evitant el desperdici d’aliments. 
+
+Actualment en una fleca tradicional podem trobar diferent problemes relacionats amb l’organització de les comandes, el control dels productes, l’atenció al client i la gestió de les vendes. 
+
+##### Problemes que volem solucionar 
+
+Farem una proposta ràpida de problemes i solucions que podem donar
+
+**Cues al comprar el pa** → Comandes anticipades i recollida, poden per exemple programar el pa cada dia a la mateixa hora
+
+**Control de stock** → Crear un cataleg amb disponibilitat dels productes  
+n  
+**Es tira el pa a final del dia** → Ofertes d’última hora
+
+**Les comandes van amb paper i boli** → Fer un sistema centralitzat amb la gestió de les comandes, per tindre un ordre
+
+**S’ha de controlar l’inventari manualment** → Una gestió digital de l'estoc
+
+**Clients que compren sempre el mateix** → Un sistema amb “comandes preferides” i recurrents, tenir un perfil dels clients amb registre de què demanen i a quines hores. També pot ajudar a fer més d’aquell producte, a posar més personal a determinades hores o a anar més ràpid alhora d’atendre
+
+**Pot costar analitzar les vendes que es fan** → Un panell amb estadístiques, com a l’anterior, es pot ajudar a fer estadístiques sobre que compren més, a quines hores…
+
+Amb MyBread volem solucionar aquest problemes amb una plataforma digital que conecti amb els clients i els treballadors i faciliti la gestió del negoci. 
+
+
+
+
+#### Abast
+
+##### Que proposem
+
+**Una botiga online:** 
+
+Proposem fer una botiga online, tant web com aplicació que aparegui un catàleg amb fotografíes dels productes, i on el client (i preparat també per a la gent gran, que son els principals clients del pà a primera hora) puguin de manera intuitiva el pa, l’hora de recollida i si pagar online o a botiga. 
+
+**Gestió interna:** 
+
+Fer un panell privat per als treballadors. Aquest panell estaria posat als ordinadors de la fleca, i permetria als treballadors veure comandes pendents, control·lar les existències restants, actualitzar els productes i consultar les vendes dels dies. 
+
+**Productes restants:** 
+
+A final de dia, els productes que no s’haguin venut, es poden vendre amb descompte, amb packs promoció, o ofertas d’última hora. Aixó es un programa qui et diu quins productes baixar i a quin preu. Pot arribar a estar conectat amb les estadístiques per a saber els productes que s’acaben de vendre a última hora i els que no, i baixar el necessari els que calguin. 
+
+**Fidelització:** 
+
+A la mateixa web / aplicació per a la botiga online, es pot afegir un programa de punts, cupons, descomptes al dia d’aniversari i recompenses per a clients habituals.
+
+**Estadístiques:** 
+
+Tenir estadístiques de tot el que passi a la botiga. Poder veure les ventes del dia, quins productes s’han venut més, les hores de màxima demanda, i per exemple els productes que s’han perdut per fer de més. 
+
+**Recollida ràpida**: 
+
+El client quan fa la reserva del pa per exemple reb un codi QR, per quan vagi a la botiga a recollir la comanda, únicament calgui escanejar el codi, i treure la bossa préviament preparada, per anar molt més ràpid. 
+
+##### Objectius 
+
+Els nostres principals objectius son: 
+
+* Digitalitzar la gestió d’una panaderia   
+* Reduir els errors humans en les comandes i en l’inventari  
+* Millorar l'experiència de compra per al client  
+* Disminuir el desperdici d’aliments amb promocions al final de dia  
+* Modernitzar i reinventar un nou negoci de fleca, més modern i fàcil. 
+
+##### Arquitectura del sistema
+
+[https\://www\.odoo.com/ca\_ES](https://www.odoo.com/ca_ES)
+
+S’ha de tindre 2 web, una al núvol per tota la part frontend i una en local per a tota la part backend, que es connectin. 
+
+**FRONTEND \- Web per als clients**
+
+HTML CSS
+
+Aquesta part permetrà als clients consultar els productes, fer comandes online i gestionar les seves reserves
+
+**BACKEND- Logística del projecte**
+
+Amb això farem la gestió interna, les comandes i la connexió amb la base de dades. 
+
+**Base de dades** 
+
+MySQL: Clients, Productes, Comandes i Stock
+
+També s’ha d’afegir seguretat, copias de seguretat diàries, protegir les contrasenyes, i un sistema de permisos per als treballadors i l’administrador.  
+
+
 
 ### OfAI
 
@@ -181,4 +271,15 @@ de quin problema pot estar patint el pacient.
 
 Aquesta és la finalitat del nostre projecte.
 
-### LucasProject
+### UNDERLABS
+El projecte consisteix en el desenvolupament d’una plataforma tecnològica orientada al sector dels videojocs, dissenyada per oferir una solució integrada per a l’execució, la gestió i l’accés a continguts interactius de diferents entorns digitals.
+El sistema disposarà d’un entorn de programari propi, compatible amb diferents formats i sistemes de distribució de videojocs, tant físics com digitals, així com amb serveis i comptes vinculats a plataformes informàtiques externes.
+
+La comercialització dels productes i serveis es durà a terme mitjançant un portal web oficial, des del qual els usuaris podran adquirir els components físics del sistema i descarregar les solucions de programari disponibles.
+Paral·lelament, es desplegarà una infraestructura de servidors destinada a proporcionar serveis de connectivitat, allotjament de sessions multijugador i gestió d’entorns de joc en línia.
+
+Addicionalment, el projecte incorporarà una línia pròpia de perifèrics especialitzats, centrada inicialment en el disseny i la comercialització de dispositius de control adaptats a les característiques de la plataforma.
+Aquests productes s’integraran dins del catàleg de la botiga en línia, amb l’objectiu d’ampliar l’oferta de solucions disponibles i garantir una major integració entre els diferents components del sistema.
+
+En conjunt, la iniciativa pretén establir un ecosistema tecnològic integral dins de l’àmbit dels videojocs, combinant desenvolupament de programari, solucions de maquinari, serveis d’infraestructura en xarxa i perifèrics especialitzats en una única plataforma de distribució i accés.
+
