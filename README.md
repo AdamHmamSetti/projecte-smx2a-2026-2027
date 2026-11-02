@@ -81,7 +81,7 @@ Això aporta una gran millora al sistema d’un gimnàs convencional, ja que hi 
 ### Elements claus
 Hi ha diversos elements claus que nosaltres afegim en el nostre projecte:
 Una polsera identificativa i no intercanviable per cada client, que servirà per entrar al gimnàs, competir en les competicions, i tenir la possibilitat d’obtenir punts, bàsicament serà el cor de l’aplicació.
-Com ja s’ha dit al punt [sistemes] (#sistemes) s'afegiran missions tant diàries com setmanals, juntament amb competicions mensuals i ratxes de dies que has complert.
+Com ja s’ha dit al punt [sistemes](#sistemes) s'afegiran missions tant diàries com setmanals, juntament amb competicions mensuals i ratxes de dies que has complert.
 Correcció de tècnica en màquines i mediador del rang en funció del pes que aixequis i les repeticions que facis.
 Aquests són els pilars més fonamentals del nostre projecte, però té més funcions i afegirà més funcions en un futur.
 
