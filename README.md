@@ -70,13 +70,15 @@ Una polsera per a cada persona amb un identificador únic que serveix per entrar
 Els productes que podràs aconseguir amb les monedes seran, begudes a la màquina expenedora, merchandising, proteïna, creatina, productes de gimnàs…
 
 ### [IhateSpam](https://github.com/IamBrosky/ihatespam)
-IHateSpam és un projecte d'una IA que s'encarrega de l'spam que us arriba, tant trucades i SMS com correus. Quan entra alguna cosa, la IA mira el número o el correu i decideix si és spam. Si no ho és, t'hi arriba com sempre. Si ho és, en comptes de bloquejar-lo li contesta ella sola.
 
-Tu tries com contesta amb un nivell de l'1 al 10. Als nivells baixos és educada però els fa perdre el temps, als mitjans els vacil·la i els segueix el rotllo, i als alts es posa vora i els insulta.
+IHateSpam és un projecte que consisteix en crear una demo d’una IA capaç de detectar i gestionar el spam que rebem en les trucades, SMS i correus electrònics. És una idea relacionada amb la ciberseguretat que podria desenvolupar qualsevol empresa tecnològica.
 
-Cada número o correu de correu brossa que detecta es guarda en una base de dades, així la propera vegada que tornin les reconeix al moment. A més, l'usuari pot crear una llista de contactes segurs, que són números i correus als quals la IA mai no respon, perquè no conteste per error la teva família, el teu banc o la teva feina. També porta un filtre de seguretat: si alguna cosa sembla una estafa perillosa, com un phishing, la IA no contesta per no donar dades ni confirmar que el teu número funciona.
+Quan rebem un missatge, SMS o trucada, la IA analitza el número o correu per decidir si és spam. Si no ho és, arriba amb normalitat. Si ho detecta com a spam, respon automàticament per nosaltres en comptes de bloquejar-lo. Podem triar com respon segons un nivell de l'1 al 10 que nosaltres triarem, des de respostes educades fins a respostes més - fins i tot al punt d'insultar.
 
-Tot això va a una web i una aplicació. Des d'aquí es veu un historial de quin correu brossa ha arribat, què ha respost la IA i quant de temps els ha fet perdre.
+El sistema també desa els números i els correus analitzats en una base de dades per reconèixer-los en un futur. A més, permet crear una llista de contactes segurs per evitar respondre familiars, bancs o contactes importants. També inclou un filtre que detecta possibles estafes i phishing, el que fa això és evitar respondre missatges o trucades perilloses.
+
+Finalment, tindreu una pàgina web per descarregar una extensió per als navegadors web i una aplicació des de les quals podrem configurar la IA i consultar un historial amb els missatges rebuts, les respostes enviades i el temps que hem aconseguit fer perdre les persones que ens contacten.
+
 ![Esquema](esquema_pro.png)
 
 ### La-Fusta-Lactea
