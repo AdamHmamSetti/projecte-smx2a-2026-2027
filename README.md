@@ -8,17 +8,19 @@ Esborrany Projecte AlmostReal
 
 AlmostReal – La botiga del futur En què consisteix el projecte? AlmostReal és un projecte que busca modernitzar les botigues de roba mitjançant la tecnologia, la intel·ligència artificial i la realitat virtual. La idea principal és crear una rèplica digital en 3D d'una botiga física, que els clients puguin visitar des d'un ordinador o amb unes ulleres de realitat virtual, com si estiguessin dins de la botiga real. Per crear aquest espai virtual, es podria gravar la botiga amb un mòbil o un dron i utilitzar eines de reconstrucció 3D per generar un model inicial. Després, es podria editar amb Blender i incorporar-lo a Unreal Engine, on es crearia l'entorn interactiu. Idees i funcions principals Botiga virtual en 3D: els clients podrien caminar per la botiga virtual i veure on es troba cada peça de roba. Mode PC i realitat virtual: es podria explorar la botiga amb el teclat i el ratolí o amb ulleres de realitat virtual, per tenir una experiència més immersiva. Assistent virtual amb IA: un assistent podria respondre preguntes com ara «On són les dessuadores negres?» o «Quin conjunt em recomanes per sortir?». Recomanacions de roba: el sistema podria recomanar conjunts segons els colors, l'estil, la talla i el pressupost del client. Mapa i rutes: quan el client triés una peça, el sistema la destacaria dins de la botiga virtual i li mostraria el camí per arribar-hi. Control d'estoc: una base de dades permetria consultar els productes disponibles, les talles, els colors i la seva ubicació. Panell d'administració: els treballadors podrien gestionar els productes, actualitzar l'estoc i consultar informació de la botiga. Com es podria desenvolupar? Per fer el projecte, es podrien utilitzar diferents eines: Blender: per crear i modificar els models 3D. Unreal Engine: per construir la botiga virtual interactiva i el mode de realitat virtual. Python: per programar algunes funcions de la IA i la comunicació entre sistemes. MySQL o PostgreSQL: per guardar els productes, les talles i l'estoc. Linux Server: per allotjar els serveis i la base de dades. HTML, CSS i JavaScript: per crear el panell web d'administració. Part d'informàtica i xarxes Com que és un projecte del cicle de SMX, també es treballaria la part d'infraestructura informàtica. Es podria configurar un servidor Linux, una base de dades, una xarxa local, adreces IP, usuaris i permisos, mesures de seguretat i sistemes de monitoratge per comprovar que els serveis funcionen correctament. Objectiu final L'objectiu és crear una demostració funcional d'una botiga de roba intel·ligent on un client pugui entrar en un entorn 3D, parlar amb un assistent d'IA, rebre recomanacions i trobar els productes fàcilment. No caldria construir una botiga completa des del principi: es podria començar amb una versió petita i anar afegint funcions a mesura que avanci el projecte. AlmostReal vol demostrar com es poden combinar la realitat virtual, la intel·ligència artificial, les bases de dades, els servidors i les xarxes per crear una nova manera de comprar roba.
 
-### [Game Truk](https://github.com/AdamHmamSetti/GameTruk)
+### [Game Truk](https://github.com/AdamHmamSetti/GamTruk
+Aquest projecte consisteix en la creació d’una petita empresa, que és un camió gaming, on la gent podrà venir a jugar a videojocs amb els seus amics, fer tornejos i passar-ho bé.
 
-Aquest projecte consisteix un camió adaptat a videojocs i entrenament de torneijos. L’objectiu principal es crear un entorn on les persones puguin gaudir de diferents videojocs amb amics, utilizant consoles i ordinadors gaming.
+El sector on es trobarà seran en diferents festivitats en Pobles i Ciutats.
 
-El Game Truk disposara d’una infraestructura informàtica, formada per una xarxa locals, servidors, equips, consoles i sistemes de comunicació.
+La idea és tenir un espai divertit perquè la gent pugui jugar i competir.
 
-Ens plantegem la utilizació de sis connexions Starlink de 300 Mbps. Aquestes connexions es gestionaran en un servidor (Ubuntu server) , utilizant la tecinca del Channel Bonding.
+Perquè tot funcioni bé, necessitarem muntar una infraestructura amb una xarxa local, servidors, ordinadors, consoles i connexions a internet.
 
-L’infrastuctura de xarxa estara formada switshes, WI-FI i connexions Ethernet. Els ordinador gaming es conectaran a conexió ethernet.
+Per tenir una bona connexió utilitzàrem sis Starlink de 300 Mbps, els gestionarem amb un Ubuntu Server utilitzant el Channel Bonding que serveix combinar diferents connexions.
 
-Com a sistema operatiu dels servidors utilizarem ubuntu server, basat en el kernel de linux. Aquest sistema ens deixara gestionar serveis en xarxa , usuaris, permisos i seguretat.
+La xarxa estarà formada per switches, WI-FI cable Ethernet. Els PC gaming anirà amb cable Ethernet.
+
 ![Game Truck](camiongaming.png)
 
 (Electricitat i Infraestructura)
@@ -26,12 +28,11 @@ Com a sistema operatiu dels servidors utilizarem ubuntu server, basat en el kern
 Endolls 220 V del camió per tota l’electricitat.
 Star Links posats al camió.
 Infraestructura del camió perquè entri totes les coses i no interfereixi amb el medi ambient i els carrers per passar amb el camió.
-Plaques solars sota el camió per alimentar una part de tot el que utilitzarem.
+Plaques solars per alimentar una part de tot el que utilitzarem.
 El manteniment de les plaques solars amb neteja periòdicament i costos.
 Els costos per l’electricitat, llum ventilació i els seus manteniments.
 Aïllament acústic per dins del camió.
 Llums led.
-![Game Truck](Electricitat_i_Infraestructura.png)
 
 
 (Gaming i Equipament)
@@ -41,7 +42,6 @@ Zona Vr amb ulleres realitat virtual x2 que sortirà més de preu
 Pantalla visible fora del camió pels següents tornejos, posar publicitat o per jocs com el Just Dance.
 Consoles retro.
 Llicències per les consoles i també pels jocs que hi hagin.
-![Game Truck](Gaming_i_Equipament.png)
 
 
 (Experiència del Client i Decoració)
@@ -51,7 +51,6 @@ Petites begudes i menjar, snacks per la gent.
 seients ergonòmics fàcils de netejar i còmodes per la gent.
 Lloc on la gent pugui fer fotos per les xarxes socials.
 Packs per la gent que compleix anys amb coses personalitzades.
-![Game Truck](Experiència_del_Client_i_Decoració.png)
 
 
 (Personal, Preus i Web)
@@ -60,8 +59,14 @@ Personal per parlar amb la gent decidir horaris, quan juga la gent i els preus q
 Preus i serveis.
 Publicitat dins de la pàgina web.
 Reserves directament per la pàgina web.
-![Game Truck](Personal_Preus_i_Web.png)
 
+
+
+En el que ens centrarem en el nostre projecte és en un sistema de Channel Bonding per ajuntar totes les xarxes de Starlink per aconseguir ajuntar-les totes en una sola.
+
+També ens encarregarem amb Ubuntu server i amb un hub d'Ethernet en un ordinador fer servir això amb una petita demostració de què funciona bé, fent servir el Channel Bonding.
+ 
+Fer una pàgina del nostre projecte per donar a conèixer a la gent que la vegi de què tracta, amb informació del que és el GameTruk.
 
 
 ### [GymLeveling](https://github.com/saericdo/GymLeveling)
